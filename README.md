@@ -36,7 +36,7 @@ CREATE DATABASE shortyurl;
 
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/shortyurl
-spring.datasource.username=root
+spring.datasource.username=YOUR_USERNAME
 spring.datasource.password=YOUR_PASSWORD
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.hibernate.ddl-auto=update
