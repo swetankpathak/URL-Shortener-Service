@@ -76,20 +76,6 @@ GET /shorty/{shortUrl}
 - If an invalid URL is submitted, a popup will display: `Invalid URL`.
 - If the URL is expired, it will automatically be deleted from the database.
 
-### Code Highlights
-
-#### Model (`UrlMapping.java`)
-- Represents the URL mapping with fields for access count and expiration.
-
-#### Service (`UrlService.java`)
-- Handles URL shortening, validation, access count, and expiration logic.
-
-#### Controller (`UrlController.java`)
-- Provides REST endpoints for shortening and accessing URLs.
-
-#### Frontend (`app.js`)
-- Makes API calls and handles UI interactions like showing shortened URLs and expiration countdown.
-
 ## Technologies Used
 - **Java 17**
 - **Spring Boot 3.4.1**
